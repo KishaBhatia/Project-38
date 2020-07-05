@@ -9,12 +9,12 @@ var runners, runner1, runner2, runner3, runner4;
 var ground_img,runner1_img,runner2_img,runner3_img,runner4_img,track_img;
 
 function preload(){
-  ground_img=loadImage("../spriteImages/ground.png");
-  runner1_img=loadImage("../spriteImages/runner1.png");
-  runner2_img=loadImage("../spriteImages/runner2.png");
-  runner3_img=loadImage("../spriteImages/runner3.png");
-  runner4_img=loadImage("../spriteImages/runner4.png");
-  track_img=loadImage("../spriteImages/track1.png");
+  ground_img=loadImage("ground.png");
+  runner1_img=loadImage("runner1.png");
+  runner2_img=loadImage("runner2.png");
+  runner3_img=loadImage("runner3.png");
+  runner4_img=loadImage("runner4.png");
+  track_img=loadImage("track1.png");
 }
 
 function setup(){
